@@ -33,9 +33,9 @@ def get_bot_response():
     #respOut = str(resp.text).replace("}", "").replace("{output:", "").replace("{\"output\":\"", "").replace("\"", "")
     return "<b>-</b> " + "\n\n<b>-</b> ".join(response_list)
 
-#if __name__ == "__main__":
-#    app.run(host='0.0.0.0', ssl_context='adhoc')
-
-
 if __name__ == "__main__":
-    app.run(host='0.0.0.0', port='5050')
+    app.run(host='0.0.0.0', ssl_context='adhoc')
+
+
+#if __name__ == "__main__":
+#    app.run(host='0.0.0.0', port='5050')
